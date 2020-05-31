@@ -1,6 +1,7 @@
 # jarvis_-
 화자인식 머신러닝 모델입니다.
 0. 녹음 파일을 준비해 주세요. (자비스~ 라고 불러주심 됩니다. 녹음 길이는 2~2.5초 사이가 적당합니다.)
+루트 폴더에 data_test , data_train 폴더를 생성해 주세요.
 
 scipy.io.wavfile ( wav 파일 입출력 라이브러리 )
 librosa ( 음성 파일 data augmentation )
