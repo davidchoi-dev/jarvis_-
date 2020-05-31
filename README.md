@@ -34,5 +34,6 @@ trainModel.py에 대해
 2. 신경망 구조는 CNN 을 사용했으며, 출력단은 softmax 입니다. (loss function은 cross-entropy)
 3. 학습시킬 때 이름들은 딕셔너리(class_dic)에 넣어 softmax에 이용할 수 있도록 해줬습니다.
 4. 테스트할 때 class_dic에 없는 키 값(이름) 은 None key로 생각해서 분류합니다.
+5. 클래스 수(분류하는 이름 수)는 학습 시에 존재하는 이름 수(== class_dic 의 크기) 만큼 입니다.
 
 프론트 엔드까지 만들게 되면 다시 돌아올게요.
